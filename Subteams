@@ -1,9 +1,88 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {background-color: #850001;}
+h1   {color: blue;}
+p    {color: red;}
+#intro{
+	background-color: #F5F5F5;
+	width:80%;
+	min-width: 800px;
+	color:#000000;
+	text-justify: inter-word;
+	margin-top:124px;
+	margin-left:10%;
+	font: 18px arial, sans-serif;
+	padding:13px 1% 0.5% 1.5%;
+	display:inline-block
+}
+#teams{
+	background-color: #F5F5F5;
+	width:80%;
+	min-width: 800px;
+	color:#000000;
+	text-justify: inter-word;
+	margin-top:65px;
+	margin-left:10%;
+	font: 18px arial, sans-serif;
+	padding:13px 1% 0.5% 1.5%;
+	display:inline-block
+}
+#header{
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	height:64px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	background-color: #440000;
+	color:#F5F5F5;
+	text-justify: inter-word;
+	font: 18px arial, sans-serif;
+	padding:20px 0px 20px 20px;
+	display:inline-block
+	height:100px !important;
+}
+#button{
+	padding-top:24px !important;
+	padding-bottom:24px !important;
+	padding-right:24px !important;
+	padding-left:24px !important;
+	color:#F5F5F5 !important;
+	font-family: 'Arial', sans-serif;
+	font-size:24px;
+	float:right;
+}
+</style>
+
+
+
+
+<head>
+    <h1>
+	<title>FRC Team 4533
+	</title>
+</h1>
+</head>
+
+<body>
+<div id="header">
+<img src = "http://veryinterestinglinktoteamimage.jpg">
+<a id="button" href="sponsors.html"><u>Sponsors</u></a>
+<a id="button" href="subteams.html"><u>Subteams</u></a>
+<a id="button" href="pictures.html"><u>Pictures</u></a>
+<a id="button" href="robot.html"><u>Robot</u></a>
+<a id="button" href="contact.html"><u>Contact</u></a>
+</div>
+<div id="intro">
+
 <!--(PRETEND THIS IS A NEW PAGE, SUBTEAMS PAGE......)-->
 
 <!DOCTYPE html> 
 <html>
 </br>
-<span style='font-weight: bold;'>Subteams</span>
+<span style='font-weight: bold; font-size: 24 px'>Subteams</span>
 
 <h1>
 	<p>Build Team</p>
