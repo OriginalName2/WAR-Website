@@ -82,20 +82,20 @@ p    {color: red;}
 <!DOCTYPE html> 
 <html>
 </br>
-<span style='font-weight: bold; font-size: 24 px'>Subteams</span>
+<span style='font-weight: bold; font-size: 60px'>Subteams</span>
 
-<h1>
+<h2>
 	<p>Build Team</p>
-	</h1>
+	</h2>
 	
 
 <h4 style="float:left;">The build team is responsible for the mechanical design and fabrication of the robot and other projects that go on
 throughout the year. The subteam also is responsible for the electronics and control systems for the robot and provides important 
 information to the programming subteam.</h4><img src="Build_Subteam.jpg" height=75 width=225 style="float:right;"/>
 
-<h1>
+<h2>
 	<p>Programming Team</p>
-	</h1>
+	</h2>
 
 <h4 style="float:left;">Wando Advanced Robotics programming team is responsible for many tasks within the team. Some are responsible for 
 the basic coding of the yearly robot, allowing the robot to function and eligable to compete at competitions. The programming team itself 
@@ -104,35 +104,35 @@ Members of the Pit UI programming subteam are responsible for the programming of
 driver station. Members of the programming team are also part of the website subteam, who create and maintain the team website.</h4>
 <img src="Programming_Subteam.jpg" height=75 width=225 style="float:right;"/>
 
-<h1>
+<h2>
 	<p>CAD Team</p>
-	</h1>
+	</h2>
 
 <h4 style="float:left;">The Computer-Aided Design(CAD) team are a group of students who help with the basic building blocks for almost 
 anything developed by the build team. The CAD team is responsible for 3d modeling ideas. They brainstorm and create basic digital 3d 
 models of the brainstormed ideas and help others decide what will be the best for build and how to approach the start of a building 
 project.</h4><img src="CAD_Subteam.jpg" height=75 width=225 style="float:right;"/>
 
-<h1>
+<h2>
 	<p>Imagery Team</p>
-	</h1>
+	</h2>
 
 <h4 style="float:left;">Robotics is not just all about robots. Being a FIRST team requires every team to project their creativity and their messages to others. The imagery team does 
 exactly that. The imagery team is responsible for the yearly design of the team's T-shirts, as well as designing the team's theme and logo onto the bot and work pit. Members of the imagery
 subteam also maintain social media connections such as Twitter and Instagram to help spread the message of FIRST.</h4><img src="Imagery_Subteam.jpg" height=75 width=225 style="float:right;"/>
 	<!--I'm not sure if we are going to go through with the social media, remove social media part if not included-->
 
-	<h1>
+	<h2>
 	<p>Buisness and Marketing</p>
-	</h1>
+	</h2>
 		
 
 <h4 style="float:left;">I really don't know anything about this so yeah idk I'll leave this here for now until I know what to actually type >_<.</h4>
 <img src="Market_n_BigBiz.jpg" height=75 width=225 style="float:right;"/>
 
-	<h1>
+	<h2>
 	<p>Scout Team</p>
-	</h1>
+	</h2>
 	
 <h4 style="float:left;">The scouting subteam is active during the competitions Team 4533 partakes in and is are essentials for the longterm success of the team during competitions. The
 scouting subteam is responsible for analyzing the performance of other bots during competitions. This way, the team as a whole can decide which bots at the competitions are the best
