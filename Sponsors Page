@@ -77,7 +77,7 @@ p    {color: black; text-align:center;font: 36px lato;}
 </div>
 <div id="intro">
  
-        <center><h1 style="color: #850001">Thanks to our Sponsors!</h1></center>
+        <center><p style="font-size: 64px; color: #850001">Thanks to our Sponsors!</p></center>
   <center><p style="font-size: 30x; color: #850001">Special thanks to our sponsors! They help the team going and help promote the values of FIRST ®!
         </p></center>
   <p><a href="https://www.bosch.us/our-company/bosch-in-the-usa/charleston/"><img src="https://www.bosch-ebike.com/typo3conf/ext/vierwd_bosch/Resources/Public/static/img/logo-english-1200.png"></a></p>
