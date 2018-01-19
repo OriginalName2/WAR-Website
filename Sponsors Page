@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <title>Sponsors Page</title>
-  </head>
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <style>
 body {background-color: #850001;}
-h1   {color: blue;}
-p    {color: red;}
+h1   {color: black; text-align:left;font: 16px lato;
+			padding:0% 5% 5% 5%;}
+p    {color: black; text-align:center;font: 36px lato;}
 #intro{
 	background-color: #F5F5F5;
 	width:80%;
@@ -48,7 +47,7 @@ p    {color: red;}
 	height:100px !important;
 }
 #button{
-	padding-top:24px !important;
+	padding-top:15px !important;
 	padding-bottom:24px !important;
 	padding-right:24px !important;
 	padding-left:24px !important;
@@ -59,6 +58,13 @@ p    {color: red;}
 }
 </style>
 
+
+
+
+<head>
+	<title>FRC Team 4533
+	</title>
+</head>
 
 <body>
 <div id="header">
@@ -80,5 +86,6 @@ p    {color: red;}
   <p><a href="http://www.sme.org/"><img src="http://e2btek.com/wp-content/uploads/2016/09/sme.jpg"></a></p>
   <p><a href="https://wandohigh.ccsdschools.com/"><img src="https://p2cdn4static.sharpschool.com/UserFiles/Servers/Server_2879574/Image/department-images/Media_Center/wando%20shield.jpg"></a></p>
  
+ </div>
  </body>
     </html>
