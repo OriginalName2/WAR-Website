@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<style>
+body {background-clor: #850001;}
+h1   {color: black; text-align:left;font: 16px lato;
+			padding:0% 5% 5% 5%;}
+p    {color: black; text-align:center;font: 36px lato;}
+#intro{
+	background-color: #F5F5F5;
+	width:80%
+	min-width: 800px;
+	color:#000000;
+	text-justify: inter-word;
+	margin-top:124px;
+	margin-left:10%;
+	font: 18px arial, san-serif;
+	padding:13px 1% 0.5% 1.5%;
+	display:inline-block
+}
+#teams
+	background-color: #F5F5F5;
+	width:80%
+	min-width: 800px;
+	color:#000000;
+	text-justify: inter-word;
+	margin-top:65px;
+	margin-left:10%;
+	font: 18px arial, san-serif;
+	padding:13px 1% 0.5% 1.5%;
+	display:inline-block
+}
+#header{
+	position:fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 64px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	background-color: #440000;
+	clor:#F5F5F5;
+	text-justify: inter-word;
+	font: 18px arial, sans-serif;
+	padding:20px 0px 20px 20px;
+	display:inline-block
+	height:100px !important;
+}
+#button{
+	padding-top:15px !important;
+	padding-bottom:24px !important;
+	padding-right:24px !important;
+	padding-left:24px !important;
+	color:#F5F5F5 !important;
+	font-family: 'Arial', sans-serif;
+	font-size:24px;
+	float:right;
+}
+</style>
+
+
+
+
+
+<head>
+	<title>Team and Robot History
+	</title>
+</head>
+
+<body>
+<div id="header">
+<img src = "http://veryinterestinglinktoteamimage.jpg">
+<a id="button href="sponsors.html"><u>Sponsors</u></a>
+<a id="button href="subteams.html"><u>Subteams</u></a>
+<a id="button href="pictures.html"><u>Pictures</u></a>
+<a id="button href="robot.html"><u>Robot</u></a>
+<a id="button href="contact.html"><u>Contact</u></a>
+
+<h1>
+	<p>2013: Ultimate Ascent</p>
+	</h1>
+
+<h3><img id="ourpic" src="2013_robot.jpg" height=75 width=225 style="float: right;"/>WAR made its debut within FIRST robotics during the 2013 season which was during a game called Ultimate Ascent.
+Alliances would work together to attempt to shoot as many frisbee disks as possible into their goals during two minute and 15 second matches. WAR members participated in their first competition at
+Palmetto Reigonal at Myrtle Beach, where WAR ended the competition with a 3-5 record.
+	</h3>
+
+<h1>
+	<p>2014: Areial Assist</p>
+	</h1>
+
+<h3><img id="ourpic" src="2014_robot.jpg" height=75 width=225 style="float: right;"/>2014 introduced Areial Assist, a game where teams of three robots play by passing 20" diameter balls between 
+each other and eventually scoring them in goals across the game field.
+	</h3>
+
+<h1>
+	<p>2015: Recycle Rush</p>
+	</h1>
+
+<h3><img id="ourpic" src="2015_robot.jpg" height=75 width=225 style="float: right;"/>stuff about recycle rush
+	</h3>
+
+<h1>
+	<p>2016: Stronghold</p>
+	</h1>
+
+<h3><img id="ourpic" src="2015_robot.jpg" height=75 width=225 style="float: right;"/>
+
+
+</div>
+</body>
+</html>
+
