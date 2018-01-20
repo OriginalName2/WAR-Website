@@ -74,7 +74,6 @@ p    {color: black; text-align:center;font: 36px lato;}
 <a id="button" href="pictures.html"><u>Pictures</u></a>
 <a id="button" href="robot.html"><u>Robot</u></a>
 <a id="button" href="contact.html"><u>Contact</u></a>
-<a id="button" href="pictures.html"><u>Pictures</u></a>
 </div>
 <div id="intro">
  
