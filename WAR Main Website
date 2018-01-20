@@ -78,7 +78,7 @@ p    {color: black; text-align:center;font: 36px lato;}
 </div>
 <div id="intro">
 
-<center><h1 style="font-size:100px; font-family:Gotham">This means W.A.R</h1></center>
+<h1 style="text-align:middle; font-size:100px; font-family:Gotham">This means W.A.R</h1>
 <center><img src="https://i.imgur.com/25HcZy7.jpg"/></center>
 
 	<h2>
