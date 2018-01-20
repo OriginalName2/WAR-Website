@@ -78,7 +78,6 @@ p    {color: black; text-align:center;font: 36px lato;}
 </div>
 <div id="intro">
 
-<center><p style="font-size: 60px:>This means W.A.R</p></center>
 <center><img src="https://i.imgur.com/25HcZy7.jpg"/></center>
 
 Team 4533 "Wando Advanced Robotics" is a FIRST ® team located in Mount Pleasant, South Carolina. With inspiring students from 
@@ -103,15 +102,14 @@ Competitions in St. Louis and Houston every year.
 </html>
 
 <br>
-<br>
-<br>
-
 <center><p style="font-size: 60px">2018 Competition Dates: See You There!</p></center>
 
 <ul>
 	<li>March 14: Rocket City Reigonal. Huntington, Alabama</li>
 	<li>March 28: South Florida Reigonal. West Palm Beach, Florida</li>
 	
+</ul>
 
-
-
+</div>
+</body>
+</html>
