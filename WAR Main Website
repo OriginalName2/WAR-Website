@@ -69,7 +69,6 @@ p    {color: black; text-align:center;font: 36px lato;}
 <body>
 <div id="header">
 <img src = "http://veryinterestinglinktoteamimage.jpg">
-<p style="float: left">Wando Advanced Robotics</p>
 <a id="button" href="sponsors.html"><u>Sponsors</u></a>
 <a id="button" href="subteams.html"><u>Subteams</u></a>
 <a id="button" href="pictures.html"><u>Pictures</u></a>
