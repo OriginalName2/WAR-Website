@@ -7,7 +7,7 @@ h1   {color: black; text-align:left;font: 16px lato;
 			padding:0% 5% 5% 5%;}
 p    {color: black; text-align:center;font: 36px lato;}
 #intro{
-	background-color: #F5F5F5;
+	background-color: #FFFFFF;
 	width:80%;
 	min-width: 800px;
 	color:#000000;
@@ -19,7 +19,7 @@ p    {color: black; text-align:center;font: 36px lato;}
 	display:inline-block
 }
 #teams{
-	background-color: #F5F5F5;
+	background-color: #FFFFFF;
 	width:80%;
 	min-width: 800px;
 	color:#000000;
