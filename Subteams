@@ -108,11 +108,11 @@ body > div {
 	<p>Build Team</p>
 	</h2>
 <div class="clearfix float-my-children">
-   <img src="https://teamimage1.jpg" width=225>
-   <div>The build team is responsible for the mechanical design and fabrication of the robot and other projects that go on
+   <p style="font-size: 20px"><img src="https://i.imgur.com/vu9uclj.jpg" alt="alt text" style="float: left">
+The build team is responsible for the mechanical design and fabrication of the robot and other projects that go on
 throughout the year. The building subteam is also responsible for the electronics and control systems for the robot and provides
 important information to the programming subteam. Within the build team itself are mutliple branches as well, such as the electrical
-team.</div>
+team.</p>
 </div>
 
 <hr>
@@ -121,13 +121,13 @@ team.</div>
 	<p>Programming Team</p>
 	</h2>
 <div class="clearfix float-my-children">
-   <img src="https://teamimage2.jpg" width=225>
-   <div>The Wando Advanced Robotics programming team is responsible for many tasks within the team. Some are responsible for 
+    <p style="font-size: 20px"><img src="https://teamimage2.jpg" alt="alt text" style="float: left">
+The Wando Advanced Robotics programming team is responsible for many tasks within the team. Some are responsible for 
 the basic coding of the yearly robot, allowing the robot to function and eligable to compete at competitions. The programming team
 itself contains many subteams within itself as well. The robot programming subteam is responsible for the ability for the robot to 
 function. Members of the Pit UI programming subteam are responsible for the programming of the pit program, allowing the robot to
 connect to the driver station. Members of the programming team are also part of the website subteam, who create and maintain the 
-team website.</div>
+team website.</p>
 </div>
 
 <hr>
@@ -136,12 +136,12 @@ team website.</div>
 	<p>CAD Team</p>
 	</h2>
 <div class="clearfix float-my-children">
-   <img src="https://teamimage3.jpg" width=225>
-   <div>The Computer-Aided Design(CAD) team are a group of students who help with the basic building blocks for almost 
+    <p style="font-size: 20px"><img src="https://teamimage3.jpg" alt="alt text" style="float: left">
+The Computer-Aided Design(CAD) team are a group of students who help with the basic building blocks for almost 
 anything developed by the build team. The CAD team is responsible for 3d modeling ideas. They brainstorm and create basic 
 digital 3d models of the brainstormed ideas and help others decide what will be the best for build and how to approach the 
 start of a building project.
-project.</div>
+project.</p>
 </div>
 
 <hr>
@@ -150,11 +150,11 @@ project.</div>
 	<p>Imagery Team</p>
 	</h2>
 <div class="clearfix float-my-children">
-   <img src="https://teamimage4.jpg" width=225>
-   <div>Robotics is not just all about robots. FIRST requires every team to project their creativity and 
+    <p style="font-size: 20px"><img src="https://teamimage4.jpg" alt="alt text" style="float: left">
+Robotics is not just all about robots. FIRST requires every team to project their creativity and 
 their messages to others. The imagery team does exactly that. The imagery team is responsible for the yearly design of
 the team's T-shirts, as well as designing the team's theme and logo onto the bot and work pit. Members of the imagery
-subteam also maintain social media connections such as Twitter and Instagram to help spread the message of FIRST.</div>
+subteam also maintain social media connections such as Twitter and Instagram to help spread the message of FIRST.</p>
 </div>
 	<!--I'm not sure if we are going to go through with the social media, remove social media part if not included-->
 	
@@ -164,8 +164,8 @@ subteam also maintain social media connections such as Twitter and Instagram to 
 	<p>Buisness and Marketing</p>
 	</h2>
 <div class="clearfix float-my-children">
-   <img src="https://teamimage5.jpg" width=225>
-   <div>I really don't know anything about this so yeah idk I'll leave this here for now until I know what to actually type.</div>
+    <p style="font-size: 20px"><img src="https://teamimage5.jpg" alt="alt text" style="float: left">
+I really don't know anything about this so yeah idk I'll leave this here for now until I know what to actually type.</p>
 </div>
 
 <hr>
@@ -174,12 +174,12 @@ subteam also maintain social media connections such as Twitter and Instagram to 
 	<p>Scout Team</p>
 	</h2>
 <div class="clearfix float-my-children">
-   <img src="https://teamimage6.jpg" width=225>
-   <div>The scouting subteam is active during the competitions Team 4533 partakes in. Their data-collecting is essential for the longterm success 
+    <p style="font-size: 20px"><img src="https://teamimage6.jpg" alt="alt text" style="float: left">
+The scouting subteam is active during the competitions Team 4533 partakes in. Their data-collecting is essential for the longterm success 
 of the team during competitions. The scouting subteam is responsible for analyzing the performance of other bots during competitions. 
 This way, the team as a whole can decide which bots at the competitions are the best match for our team's robot to ensure maximum success 
 during alliance selections with other teams. Without the scout team, strong alliances with other teams cannot be created, lowering the
-team's chances of reaching far in the FIRST competitions.</div>
+team's chances of reaching far in the FIRST competitions.</p>
 </div>
 
 </div>
