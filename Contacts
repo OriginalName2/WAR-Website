@@ -77,7 +77,11 @@ p    {color: black; text-align:center;font: 36px lato;}
 </div>
 <div id="intro">
 
-<p style="font-size: 60px">Contacts</h1>
+<p style="font-size: 60px">Contacts</p>
+
+<hr>
+
+<p style="font-size: 40 px">Should any issue arise, please contact one of the following below:</p>
 
 <ul>
     <li>cheesemansemail@ccsdschools.com</li>
