@@ -93,5 +93,4 @@ p    {color: black; text-align:center;font: 36px lato;}
 <hr>
 
 <p style="font-size: 40px">Social Media</p>
-
-<p><a href="https://www.facebook.com/Frc4533/">Facebook Page</a>
+<center><p><a href="https://www.facebook.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_%282015%29.svg/2000px-Facebook_New_Logo_%282015%29.svg.png" width="600" height="225"></a></p></center>
