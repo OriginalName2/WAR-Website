@@ -41,6 +41,7 @@ p    {color: black; text-align:center;font: 36px lato;}
 	padding:20px 0px 20px 20px;
 	display:inline-block
 	height:100px !important;
+	z-index: 950
 }
 #button{
 	padding-top:15px !important;
@@ -58,7 +59,8 @@ p    {color: black; text-align:center;font: 36px lato;}
     width: 640px; 
     height: 480px; 
     padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+	z-index: 900 
 }
 
 #slideshow > div { 
