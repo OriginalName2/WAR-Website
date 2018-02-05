@@ -1,4 +1,5 @@
-body {background-color: #850001;}
+body {background-color: #850001;  background-image: url("https://wandochorus.files.wordpress.com/2014/08/wando-chorus-logo.png");
+}
 h1   {color: black; text-align:left;font: 16px lato;
 			padding:0% 5% 5% 5%;}
 p    {color: black; text-align:center;font: 36px lato;}
