@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <script type="text/javascript" src="js/jquery-1.6.js" ></script>
+  <script type="text/javascript" src="js/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/cufon-replace.js"></script>
+  		<script type="text/javascript" src="js/NewsGoth_BT_400.font.js"></script>
+  		<script type="text/javascript" src="js/NewsGoth_BT_700.font.js"></script>
+  <script type="text/javascript" src="js/atooltip.jquery.js"></script>
+
+
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
+  <![endif]-->
+	<!--[if lt IE 7]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"  alt="" /></a>
+		</div>
+	<![endif]-->
+</head>
+
+<body id="page3">
+	<div class="bg1">
+		<div class="main">
+			<!--header -->
+			<header>
+				<nav>
+					<ul id="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="outreach.html">Outreach</a></li>
+						<li class="active"><a href="sponsors.html">Sponsors</a></li>
+						<li><a href="subteams.html">Subteams</a></li>
+						<li><a href="history.html">History</a></li>
+						<li><a href="Contacts.html">Contacts</a></li>
+					</ul>
+				</nav>
+				<h1><a href="index.html" id="logo">FRC 4533</a></h1>
+			</header>
+			<!--header end-->
+			<div class="box">
+			<!--content -->
+			<article id="content">
+				<div class="wrapper">
+					<h2>Sponsors</h2>
+					<dl class="folio">
+						<dd>
+							<ul class="marg_right1">
+								<li><a href="https://www.boeing.com/"><img src="images/gallery_img1.jpg" alt="" width="260" height="171" /></a></li>
+								<li><a href="https://www.bosch.us/"><img src="images/gallery_img2.jpg" alt="" width="260" height="171" /></a></li>
+								<li><a href="http://www.public.navy.mil/spawar/Pages/default.aspx"><img src="images/gallery_img3.jpg" alt="" width="260" height="171" /></a></li>
+							</ul>
+							<ul class="marg_right1">
+								<li><a href="http://www.sme.org/"><img src="images/gallery_img4.jpg" alt="" width="260" height="171" /></a></li>
+								<li><a href="https://www.solidworks.com/"><img src="images/gallery_img5.jpg" alt="" width="260" height="171" /></a></li>
+								<li><a href="https://wp.indexic.net/"><img src="images/gallery_img6.jpg" alt="" width="260" height="171" /></a></li>
+							</ul>
+							<ul>
+								<li><a href="https://wandohigh.ccsdschools.com/"><img src="images/gallery_img7.jpg" alt="" width="260" height="171" /></a></li>
+								<li><a href="https://www.crunchydata.com/"><img src="images/gallery_img8.jpg" alt="" width="260" height="171" /></a></li>
+								<li><a href="https://www.firstinspires.org/"><img src="images/gallery_img9.jpg" alt="" width="260" height="171" /></a></li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</article>
+			<!--content end-->
+			<!--footer -->
+			<footer>
+					<div class="line1">
+						<div class="line2 wrapper">
+							<div class="icons">
+								<h4>Social Media</h4>
+								<ul id="icons">
+									<li><a href="https://www.instagram.com/4533_wandoadvancedrobotics/" class="normaltip" title="Instagram"><img src="images/icon1.jpg" alt=""></a></li>
+									
+									<li><a href="https://www.facebook.com/Frc4533/" class="normaltip" title="Facebook"><img src="images/icon4.jpg" alt=""></a></li>
+								</ul>
+								<!-- {%FOOTER_LINK} -->
+							</div>
+							<div class="info">
+								<h4>This Means</h4>
+							</div>
+							<div class="info">
+								<h4>W.A.R</h4>
+							</div>
+							<div class="phone">
+								<h4>Meetings</h4>
+								<p>Mondays, Wednesdays, Fridays, and Saturdays</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+			<!--footer end-->
+			</div>
+		</div>
+	</div>
+<script>
+	Cufon.now();
+</script>
+<script>
+$(document).ready(function(){
+	var Img='#'+$(".folio .active").attr('id')
+	$(".folio dt img").css({opacity:'0'});
+	$(".folio dt img.active").css({opacity:'1'});
+	$(".folio ul li a").click(function(){
+  		var ImgId = $(this).attr("href");
+  		if (ImgId!=Img) {
+			$(".folio dt .active").animate({ opacity: "0" }, 600,function(){
+				 $(this).removeClass('active');
+			})
+				 $(ImgId).animate({ opacity: "1" }, 600).addClass('active');
+		}
+		Img=ImgId;
+  	  return false;
+   })
+});
+</script>
+</body>
+</html>
