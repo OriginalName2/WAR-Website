@@ -1,0 +1,73 @@
+h2.contact-title {
+    text-align: left;
+    font-size: 48px;
+    padding-top: 100px;
+}
+
+
+/* for mobile */
+
+@media (max-width:767px) {
+    h2.contact-title {
+        font-size: 30px !important;
+        padding-top: 70px !important;
+    }
+    hr {
+        margin-top: 40px !important;
+    }
+    p.info {
+        font-size: 14px !important;
+    }
+    a.link {
+        font-size: 14px !important;
+    }
+}
+
+hr {
+    margin-top: 30px;
+}
+
+button.submit {
+    margin-top: 16px;
+    width: 100%;
+    border-radius: 6px;
+    border-color: #440000;
+}
+
+label {
+    font-size: 25px;
+    margin-top: 24px;
+}
+
+p {
+    font-size: 14px;
+    margin-left: 4px;
+    margin-top: 8px;
+}
+
+textarea {
+    min-height: 150px !important;
+    max-width: 100% !important;
+    font-size: 14px;
+}
+
+input {
+    font-size: 18px;
+}
+
+a.link {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+p.info {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.glyphicon {
+    color: #440000 !important;
+    font-size: 1.5em;
+}
