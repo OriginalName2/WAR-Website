@@ -1,0 +1,802 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,600');
+
+/*full  pics*/
+
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*bigger top nav to make room for logo*/
+
+#top-nav {
+    height: 85.5px !important;
+}
+
+
+/*resizing logo, making it smaller, other brand stuff, font size,family, and weight, also contains right nav bar stuff*/
+
+#logo {
+    margin-top: 8px;
+    width: 70px;
+    height: 70px;
+}
+
+@media (max-width:767px) {
+    #logo {
+        margin-top: 8.5px;
+        width: 35px;
+        height: 35px;
+    }
+    #top-nav {
+        height: 51.25px !important;
+    }
+    .menu-button {
+        margin-top: 10px !important;
+        margin-bottom: 5px !important;
+    }
+    h1 {
+        margin-left: 45px !important;
+        margin-top: -25px !important;
+        font-size: 18px !important;
+    }
+    #myCarousel {
+        padding-top: 45px !important;
+    }
+}
+
+h1 {
+    margin-left: 70px;
+    margin-top: -45px;
+    vertical-align: bottom;
+    color: white;
+    font-size: 23px;
+}
+
+a.active.home {
+    padding-top: 40px !important;
+    height: 100px !important;
+    color: #dddddd !important;
+    font-size: 15px;
+}
+
+a.links {
+    height: 50px !important;
+    padding-top: 35px !important;
+    color: #dddddd !important;
+    font-size: 15px;
+}
+
+.dropdown-text {
+    font-size: 13.5px;
+}
+
+
+/*green underlines on links*/
+
+li.links {
+    border-bottom: #440000 transparent px;
+}
+
+li.links:hover {
+    border-bottom: #440000 solid 5px;
+    transition: 0.2s;
+}
+
+li.active {
+    border-bottom: #440000 solid 5px;
+}
+
+a.links {
+    background-color: #222 !important;
+    height: 65px !important;
+}
+
+
+/* green box for DONATE NOW! button */
+
+a.donate-button {
+    background-color: #440000 !important;
+    border-radius: 3px;
+    transition: .2s;
+    padding-top: 13px !important;
+    margin-top: 20px !important;
+    height: 50px !important;
+    line-height: 23px !important;
+}
+
+li.donate-li {
+    height: 40px;
+}
+
+a.donate-button:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+
+/*to counter the green effects for the indicators for the carousel*/
+
+li.no-green {
+    border-bottom: white solid 1px;
+}
+
+
+/* making navbar collapse earlier */
+
+@media (max-width: 1199px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+        margin-right: 0px !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .dropdown-menu {
+        position: static !important;
+        float: none !important;
+        width: auto !important;
+        margin-top: 0 !important;
+        background-color: transparent !important;
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+    .navbar-nav .dropdown-menu>li>a {
+        line-height: 20px !important;
+    }
+    .navbar-nav .dropdown-menu .dropdown-header,
+    .navbar-nav .dropdown-menu>li>a {
+        padding: 5px 15px 5px 25px !important;
+    }
+    .navbar-inverse .navbar-nav .dropdown-menu>li>a:focus,
+    .navbar-inverse .navbar-nav .dropdown-menu>li>a:hover {
+        color: #fff !important;
+        background-color: transparent !important;
+    }
+    .dropdown-menu>li>a {
+        color: #9d9d9d !important;
+    }
+    .dropdown-menu>li>a {
+        display: block !important;
+        clear: both !important;
+        font-weight: 400 !important;
+        white-space: nowrap !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .navbar-collapse {
+        margin-top: 14px;
+        border-radius: 3px;
+        border: 0px;
+    }
+    .navbar-nav {
+        float: none!important;
+        padding: 10px;
+        margin-top: 0px;
+    }
+    a.links {
+        height: 60px !important;
+        padding-top: 30px !important;
+        color: white !important;
+        font-size: 15px;
+    }
+    a.donate-button {
+        background-color: #440000 !important;
+        border-radius: 3px;
+        transition: .2s;
+        padding-top: 13px !important;
+        margin-top: 13px !important;
+        height: 50px !important;
+        line-height: 23px !important;
+    }
+    li.donate-li {
+        height: 50px !important;
+    }
+}
+
+
+/*making collapsed dropdown nav have a smaller height+different padding*/
+
+@media (max-width: 767px) {
+    .navbar-nav> li> a {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    a.dropdown-toggle.links {
+        height: 40px !important;
+    }
+    a.home {
+        height: 50px !important;
+        color: white !important;
+    }
+    a.links {
+        height: 50px !important;
+        color: white !important;
+    }
+    .glyphicon-chevron-up {
+        padding-right: 30px;
+    }
+    a.donate-button {
+        background-color: #440000 !important;
+        border-radius: 3px;
+        transition: .2s;
+        padding-top: 15px !important;
+        margin-top: 15px !important;
+        height: 45px !important;
+        line-height: 23px !important;
+    }
+    li.donate-li {
+        height: 50px !important;
+    }
+}
+
+
+/*No Scrolling for navbar collapsed menu*/
+
+.navbar-collapse.in {
+    overflow: hidden;
+    max-height: none !important;
+    height: auto !important;
+    background-color: #222;
+}
+
+@media (min-width: 1200px) {
+    /*making dropdown link scroll down when clicked */
+    .dropdown .dropdown-menu {
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        transition: all 0.4s;
+        max-height: 0;
+        display: block;
+        overflow: hidden;
+        opacity: 0;
+    }
+    .dropdown.open .dropdown-menu {
+        max-height: 300px;
+        opacity: 1;
+    }
+}
+
+
+/*making dropdown link scroll down when clicked */
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown.open .dropdown-menu {
+    max-height: 300px;
+    opacity: 1;
+}
+
+
+/* make navbar bottom fixed to bottom of page */
+
+
+/*making dropdown menu and other links centered and button too*/
+
+b.caret {
+    margin-left: 5px !important;
+}
+
+.navbar-brand {
+    padding: 00px;
+}
+
+.menu-button {
+    margin-top: 30px;
+}
+
+
+/*All Navbar CSS ENDS HERE-----------------------------------*/
+
+
+/*All header CSS begins HERE */
+
+.special-contain {
+    width: 100%;
+}
+
+
+/*Carousel CSS begins HERE-----------------------------------*/
+
+.slide {
+    padding-top: 80px;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 0;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+
+/*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
+*/
+
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-fade .carousel-inner> .item.next,
+    .carousel-fade .carousel-inner> .item.active.right {
+        opacity: 0.1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner> .item.prev,
+    .carousel-fade .carousel-inner> .item.active.left {
+        opacity: 0.1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner> .item.next.left,
+    .carousel-fade .carousel-inner> .item.prev.right,
+    .carousel-fade .carousel-inner> .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+/*Adding captions*/
+
+h2.team-header {
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.carousel-caption {
+    height: 65%;
+    right: 40%;
+    left: 20%;
+}
+
+p.p-carousel-caption {
+    font-size: 25px;
+    text-align: left;
+}
+
+@media (max-width: 1260px) {
+    p.p-carousel-caption {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 650px) {
+    h2.team-header {
+        font-size: 24px;
+    }
+}
+
+
+/*Carousel CSS ENDS------------------------------------------*/
+
+
+/*Entering About Us Zone-------------------------------------*/
+
+.About-us-top {
+    padding-bottom: 20px;
+}
+
+div#AboutUs {
+    padding-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #333333;
+}
+
+h3.about-us {
+    font-size: 45px;
+}
+
+.FIRST {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.paragraph-links:hover {
+    text-decoration: none;
+}
+
+p.about-us {
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+
+/*resizing picture*/
+
+.engineering {
+    padding-top: 15px;
+    width: 350px;
+    height: 285px;
+}
+
+.firstimage {
+    width: 325px;
+    height: 256px;
+    margin-top: 35px;
+}
+
+.hr-below-first {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0px !important;
+}
+
+
+/*About Us Zone Ends Here -----------------------------------*/
+
+
+/*Entering Subteams Zone ------------------------------------*/
+
+.subteams {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+/*resizing images and adding effects*/
+
+img.circle {
+    width: 80%;
+    height: 30%;
+}
+
+
+/*text below image resizing etc. and padding*/
+
+h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bot-sub {
+    padding-top: 30px;
+}
+
+h4.art {
+    margin-right: 5px;
+}
+
+h4.web {
+    margin-left: 10px;
+}
+
+
+/*Paragraph Stuff*/
+
+.paragraph-circle {
+    font-size: 14px;
+}
+
+
+/* getting rid of -15px margin for special row */
+
+.special-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/*Subteams Zone Ends Here -----------------------------------*/
+
+
+/*Entering sponsors zone--------------------------------------*/
+
+p.sponsor-p {
+    font-size: 20px;
+}
+
+
+/*Sponsors zone ends here------------------------------------*/
+
+
+/*Buttons ---------------------------------------------------*/
+
+.btn-green {
+    padding: 20px;
+    background-color: #440000;
+    color: #f1f1f1;
+    border-color: #222;
+    border-radius: 0;
+    font-size: 20px;
+    transition: .2s;
+}
+
+
+/* On hover, the color of .btn will transition to white with black text */
+
+.btn-green:hover,
+.btn-green:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+hr.sponsorshr {
+    margin-top: 37px;
+    margin-bottom: 35px;
+}
+
+
+/*Buttons Ends HERE -----------------------------------------*/
+
+
+/*ScrollSpy--------------------------------------------------*/
+
+#Subteams {
+    padding-top: 10px;
+}
+
+
+/* Sponsors stuff starts here */
+
+img.sponsor {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+p.sponsor-p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h2.sponsors-h2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 48px;
+}
+
+
+/* Begin flip Animation */
+
+
+/* entire container, keeps perspective */
+
+.flip-container {
+    -webkit-perspective: 1000;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+
+/* flip the pane when hovered */
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+    width: 280px;
+    height: 140px;
+}
+
+.back {
+    display: table;
+}
+
+
+/* flip speed goes here */
+
+.flipper {
+    transition: 0.75s;
+    -webkit-transition: all 0.55s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+    position: relative;
+}
+
+
+/* hide back of pane during swap */
+
+.front,
+.back {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* front pane, placed above back */
+
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    -webkit-transform: rotateY(0deg);
+}
+
+
+/* back, initially hidden pane */
+
+.back {
+    -webkit-transform: rotateY(180deg);
+}
+
+
+/* End flip animation */
+
+
+/* Sponsor stuff ends here */
+
+
+/*Entering Footer CSS zone-----------------------------------*/
+
+.navbar-static-bottom {
+    margin-top: 35px;
+    border-radius: 0px;
+}
+
+p.footer {
+    color: white;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+div.navbar.navbar-inverse.navbar-static-bottom {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+div.icons {
+    margin-top: 25px;
+}
+
+
+/*for the icons:twiiter, facebook*/
+
+.foot {
+    padding-top: 15px;
+}
+
+i.facebook {
+    color: #3b5998;
+}
+
+i.youtube {
+    color: red;
+}
+
+i.twitter {
+    color: #00aced;
+}
+
+i.instagram {
+    color: #FF69B4;
+}
+
+i:hover {
+    color: #F0F0F0;
+}
+
+i {
+    margin-left: 7px;
+}
+
+
+/*for arrow*/
+
+span.glyphicon-chevron-up {
+    color: #440000;
+    font-size: 23px;
+    text-align: center;
+}
+
+h5 {
+    margin-top: 0px;
+    color: white;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+a.glyph {
+    text-decoration: none;
+    text-align: center;
+}
+
+div.to-top {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*All Footer CSS ENDS HERE----------------------------------*/
